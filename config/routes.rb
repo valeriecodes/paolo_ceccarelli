@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'goals#index'
+
   resources :donations
   resources :comments
   resources :goals
